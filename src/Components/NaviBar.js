@@ -4,17 +4,17 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #8e44ad;
+    background-color: #ffffff;
   }
   .navbar-brand,
   .navbar-nav {
-    color: #2f3640;
+    color: black;
 
     &: hover {
-      color: #2f3640;
+      color: #ffffff;
     }
     .nav-bar-custom {
-      color: #2f3640;
+      color: black;
     }
   }
 `;
@@ -22,7 +22,7 @@ const Styles = styled.div`
 export const NaviBar = () => (
   <Styles>
     <Navbar expand="lg" bg="light" variant="light" fixed="top">
-      <Navbar.Brand href="/">IDK</Navbar.Brand>
+      <Navbar.Brand href="/">hi</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -36,16 +36,7 @@ export const NaviBar = () => (
               About
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/siberianproducts" className="nav-bar-custom">
-              Siberian Larch Products
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/gallery" className="nav-bar-custom">
-              Gallery
-            </Nav.Link>
-          </Nav.Item>
+
           <Nav.Item>
             <Nav.Link href="/contacts" className="nav-bar-custom">
               Contacts
